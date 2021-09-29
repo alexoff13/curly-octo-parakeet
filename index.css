@@ -40,8 +40,13 @@ li > ul {
     top: 25px;
     display: none;
 }
+.right{
 
-
+}
+li:hover > .right {
+    top: -25px;
+    left: 100%;
+}
 li:hover > ul {
     display: block;
     width: 250px;
